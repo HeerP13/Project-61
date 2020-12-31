@@ -1,0 +1,109 @@
+body {
+
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+#Welcome {
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(black 0%, orange 100%);
+    font-family:
+        Comic Sans, sans-serif;
+    /* Insert Comment */
+    display: table;
+
+}
+
+.welcome-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.profile {
+    height: 50;
+    width: 200px;
+    margin-bottom: 100px;
+    border-radius: 25;
+}
+
+#bio {
+    font-family: 'Playfair Display', serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.line {
+    width: 200px;
+    height: 5px;
+    color: navy;
+    margin: 8px auto;
+}
+
+h1 {
+    h1 {
+        font-family: 'Lobster Two', cursive;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+}
+
+.line {
+    width: 70px;
+    height: 6px;
+    color: navy;
+    margin: 2px auto;
+    background-color: #000;
+
+}
+
+.menu {
+    color: navy;
+    list-style: none;
+    position: fixed;
+    top: 0px;
+
+    cursor: pointer;
+    right: 10px;
+    z-index: 10;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+}
+
+.links {
+    float: right;
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-left: 9px;
+    padding-right: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+    color: #fff;
+}
+
+a {
+    color: navy;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.links:hover {
+    background-color: #00B8D4;
+}
